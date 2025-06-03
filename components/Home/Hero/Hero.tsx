@@ -32,7 +32,7 @@ const Hero = () => {
           <div className="">
             <h1
               className="text-[20px] sm:text-[25px] mb-4 md:mb-0 text-center md:text-[35px]
-                lg:text-[45px] tracking-[0.3em] sm:tracking-[0.5em] md:tracking-[0.7em] text-white font-bold uppercase"
+                lg:text-[45px] tracking-[0.2em] sm:tracking-[0.3em] md:tracking-[0.5em] text-white font-bold uppercase"
             >
               Log Your Journey.
               <br /> Share the Adventure.
@@ -43,7 +43,7 @@ const Hero = () => {
             >
               Turn your travels into stories worth remembering. With Triplog,
               you can map your adventures, journal your experiences, and relive
-              every destination—beautifully.
+              every destination beautifully.
             </p>
           </div>
           {/*SearchBox*/}

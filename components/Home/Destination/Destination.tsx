@@ -8,7 +8,7 @@ const Destination = () => {
       {/* Section heading */}
       <SectionHeading
         heading="Exploring Popular Destination"
-        description="Discover the most sought-after travel spots around 
+        description="Discover the most sought after travel spots around 
         the globe, handpicked to inspire your next unforgettable journey."
       />
       {/* Section Content */}

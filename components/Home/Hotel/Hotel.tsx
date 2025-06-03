@@ -9,7 +9,7 @@ const Hotel = () => {
       <SectionHeading
         heading="Recommended Hotels"
         description="Stay in comfort and style with our top hotel 
-        picks—perfectly located, traveler-approved, and ready for your next adventure."
+        picks perfectly located, traveler-approved, and ready for your next adventure."
       />
       <div
         className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8

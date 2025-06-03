@@ -4,6 +4,7 @@ import "./globals.css";
 import { Poppins } from "next/font/google";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 import Footer from "@/components/Home/Footer/Footer";
+import ScrollToTop from "@/components/Helper/ScrollToTop";
 
 // Setup task
 // Customize your font { watch the video }
@@ -67,6 +68,7 @@ export default function RootLayout({
         <ResponsiveNav />
         {children}
         <Footer />
+        <ScrollToTop />
       </body>
     </html>
   );

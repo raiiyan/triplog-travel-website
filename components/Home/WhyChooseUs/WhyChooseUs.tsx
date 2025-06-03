@@ -16,21 +16,29 @@ const WhyChooseUs = () => {
         lg:grid-col-3 xl:grid-cols-3  gap-16 items-center mt-20"
       >
         {/* whychooseus card */}
-        <div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center">
           <WhyChooseCard
             image="/images/c1.svg"
             title="Best Price Guarantee"
             description="Get the most competitive rates - no hidden fees, just great value."
           />
         </div>
-        <div>
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="150"
+        >
           <WhyChooseCard
             image="/images/c2.svg"
             title="Easy & Quick Booking"
             description="Book your next trip in just a few clicks - fast, simple, seamless."
           />
         </div>
-        <div>
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="300"
+        >
           <WhyChooseCard
             image="/images/c3.svg"
             title="Customer Care 24/7"

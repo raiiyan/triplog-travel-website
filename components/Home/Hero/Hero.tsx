@@ -29,7 +29,7 @@ const Hero = () => {
           className="flex items-center justify-center
         flex-col w-full h-full"
         >
-          <div className="">
+          <div data-aos="fade-up" data-aos-offset="0">
             <h1
               className="text-[20px] sm:text-[25px] mb-4 md:mb-0 text-center md:text-[35px]
                 lg:text-[45px] tracking-[0.2em] sm:tracking-[0.3em] md:tracking-[0.5em] text-white font-bold uppercase"

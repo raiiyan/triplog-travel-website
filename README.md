@@ -1,128 +1,81 @@
-# Triplog — Travel Journal & Adventure Sharing Website
+# Triplog Travel Website
 
-[![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+Triplog is a fully responsive travel and booking website built with **Next.js 15.3.3 App Router**, **Tailwind CSS**, and **TypeScript**. It helps users discover destinations, find recommended hotels, and explore travel stories in a visually compelling way.
 
-## Table of Contents
+## 🌐 Live Demo
 
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Demo](#demo)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+[Visit Website](https://raiyan-hossain.vercel.app/)
 
----
+## 📂 Project Structure
 
-## Project Overview
+```
+triplog-travel-website/
+├── app/                      # App directory (Next.js routing)
+│   ├── fonts/               # Custom fonts
+│   ├── globals.css          # Global CSS with Tailwind
+│   ├── layout.tsx           # Root layout
+│   └── page.tsx             # Home page entry
+│
+├── components/              # Reusable components
+│   └── Home/                # Home section components
+│       ├── Destination/
+│       ├── Footer/
+│       ├── Hero/
+│       ├── Hotel/
+│       ├── Navbar/
+│       ├── News/
+│       ├── NewsLatter/
+│       ├── Reviews/
+│       └── WhyChooseUs/
+│   └── Helper/              # Utility components
+│   └── Home.tsx             # Main Home layout
+│
+├── constant/                # Static constants
+├── data/                    # Local data
+├── public/                  # Static assets (images, icons, etc.)
+├── .eslintrc.json
+├── .gitignore
+├── next.config.ts
+├── next-env.d.ts
+├── package.json
+├── postcss.config.mjs
+├── tailwind.config.ts
+├── tsconfig.json
+└── README.md
+```
 
-Triplog is a modern, responsive travel website built using **Next.js**. It allows users to log their journeys, share travel stories, and explore adventures worldwide with an engaging UI enhanced by video backgrounds and smooth animations.
+## ⚙️ Tech Stack
 
-This project is part of my portfolio showcasing frontend development skills, responsive design, and integration of multimedia elements.
+- Next.js 15 App Router
+- TypeScript
+- Tailwind CSS
+- AOS Animation Library
+- React Icons
 
----
+## 🚀 Features
 
-## Features
+- Hero video with text overlay
+- Destination showcase with scroll animations
+- Hotel recommendations with image cards
+- Why Choose Us section with SVG features
+- Newsletter subscription form
+- Footer and navigation bar
+- Smooth scroll-to-top button
 
-- **Video Background Hero Section** with overlay and responsive text
-- **Search Box** with location input, date pickers, and guest selection
-- **Mobile-first Responsive Design** optimized for phones, tablets, and desktops
-- **Navigation** with smooth overlay menu on mobile
-- Clean and modern UI powered by **Tailwind CSS**
-- Accessibility and SEO-friendly meta tags and semantic HTML
-
----
-
-## Demo
-
-You can view the live demo here:  
-[https://raiyan-hossain.vercel.app](https://raiyan-hossain.vercel.app)
-
----
-
-## Tech Stack
-
-- [Next.js](https://nextjs.org/) — React framework for production
-- [React Icons](https://react-icons.github.io/react-icons/) — Icon library
-- [Tailwind CSS](https://tailwindcss.com/) — Utility-first CSS framework
-- HTML5 Video API for background videos
-
----
-
-## Installation
-
-1. **Clone the repo**
+## 📦 Installation
 
 ```bash
 git clone https://github.com/raiiyan/triplog-travel-website.git
 cd triplog-travel-website
-```
-
-2. **Install dependencies**
-
-```bash
 npm install
-# or
-yarn install
-```
-
-3. **Run development server**
-
-```bash
 npm run dev
-# or
-yarn dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) to see the app.
+## 👤 Author
+
+**Raiyan Hossain**  
+📫 Email: [raiyanhossain93@gmail.com](mailto:raiyanhossain93@gmail.com)  
+🔗 GitHub: [raiiyan](https://github.com/raiiyan)  
+🌐 Portfolio: [raiyan-hossain.vercel.app](https://raiyan-hossain.vercel.app/)
 
 ---
-
-## Usage
-
-- Use the **search box** to input travel details.
-- Explore the hero section with engaging background video and headline.
-- Navigate smoothly using the mobile-friendly nav menu.
-- Customize components and styles in `/components` and `/styles`.
-
----
-
-## Folder Structure
-
-```
-/components     # React components (Hero, SearchBox, MobileNav, etc.)
-/pages          # Next.js pages
-/public         # Static assets like images and videos
-/styles         # Global and Tailwind CSS configurations
-/constants      # Constants such as navLinks
-```
-
----
-
-## Contributing
-
-Contributions are welcome! Feel free to:
-
-- Open issues for bugs or feature requests
-- Submit pull requests with improvements or fixes
-
-Please follow the standard GitHub flow and ensure your code is clean and commented.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Contact
-
-Created by Raiyan Hossain — feel free to reach out:
-
-- Email: raiyanhossain93@gmail.com
-- GitHub: [raiiyan](https://github.com/raiiyan)
-- Portfolio: [raiyan-hossain.vercel.app](https://raiyan-hossain.vercel.app)

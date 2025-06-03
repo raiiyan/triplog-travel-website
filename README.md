@@ -4,7 +4,7 @@ Triplog is a fully responsive travel and booking website built with **Next.js 15
 
 ## 🌐 Live Demo
 
-[Visit Website](https://raiyan-hossain.vercel.app/)
+[Visit Website](https://raiyan-hossain.vercel.app/) | [My Portfolio](https://raiyan-hossain.vercel.app/)
 
 ## 📂 Project Structure
 

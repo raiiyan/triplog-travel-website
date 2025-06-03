@@ -4,10 +4,6 @@ import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 import Footer from "@/components/Home/Footer/Footer";
 import ScrollToTop from "@/components/Helper/ScrollToTop";
 
-// Setup task
-// Customize your font { watch the video }
-// Customize your meta data
-
 const font = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],

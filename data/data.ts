@@ -33,19 +33,19 @@ export const destinationData = [
   {
     id: 6,
     image: "/images/d6.jpg",
-    country: "Canada",
+    country: "Thailand",
     travelers: "175,000",
   },
   {
     id: 7,
     image: "/images/d7.jpg",
-    country: "Germany",
+    country: "Spain",
     travelers: "160,000",
   },
   {
     id: 8,
     image: "/images/d8.jpg",
-    country: "Brazil",
+    country: "Canada",
     travelers: "140,000",
   },
 ];

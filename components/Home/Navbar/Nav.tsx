@@ -1,22 +1,21 @@
 "use client";
 import { navLinks } from "@/constant/constant";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { HiBars3BottomRight } from "react-icons/hi2";
-import { TbAirBalloon } from "react-icons/tb";
 
 type Props = {
   openNav: () => void;
 };
 
 const Nav = ({ openNav }: Props) => {
-
   const [navBg, setNavBg] = useState(false);
 
   useEffect(() => {
     const handler = () => {
-      if(window.scrollY>=90) setNavBg(true);
-      if(window.scrollY<90) setNavBg(false);
+      if (window.scrollY >= 90) setNavBg(true);
+      if (window.scrollY < 90) setNavBg(false);
     };
     window.addEventListener("scroll", handler);
     return () => window.removeEventListener("scroll", handler);
@@ -24,7 +23,9 @@ const Nav = ({ openNav }: Props) => {
 
   return (
     <div
-      className={` ${ navBg ? "bg-blue-500 shadow-md" : "fixed"} transition-all duration-200 
+      className={` ${
+        navBg ? "bg-blue-500 shadow-md" : "fixed"
+      } transition-all duration-200 
         h-[12vh] z-[1000] fixed w-full`}
     >
       <div
@@ -33,18 +34,16 @@ const Nav = ({ openNav }: Props) => {
       >
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <div
-            className="w-10 h-10 bg-rose-500 rounded-full
-                flex items-center justify-center flex-col"
-          >
-            <TbAirBalloon className="w-7 h-7 items-center text-white" />
+          <div>
+            <Link href={"/"}>
+              <Image
+                src="/images/logo.png"
+                alt="logo"
+                width={150}
+                height={150}
+              />
+            </Link>
           </div>
-          <h1
-            className="text-xl md:text-2xl text-white
-                uppercase font-bold"
-          >
-            Triplog
-          </h1>
         </div>
         {/* Navigation Links */}
         <div className="hidden lg:flex items-center space-x-10">

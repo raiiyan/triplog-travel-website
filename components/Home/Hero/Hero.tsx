@@ -8,7 +8,7 @@ const Hero = () => {
       {/* Overlay */}
       <div
         className="absolute top-0 left-0 w-full h-full
-        bg-gray-800 opacity-70"
+        bg-gray-800 opacity-30"
       ></div>
       {/* Video Background */}
       <video
